@@ -11,7 +11,7 @@ pipeline{
         }
         stage ('after') {
             steps {
-                echo 'after step'
+                echo 'Version 2'
             }
         }
     }
